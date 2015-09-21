@@ -136,5 +136,5 @@
             "description": "A blog id"
         }
     },
-    "definitions": { "$ref": "./definitions/index.json" }
+    "definitions": { "$ref": "/home/rebus/swagger/spec/definitions/index.json" }
 }

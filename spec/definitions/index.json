@@ -1,3 +1,5 @@
-"Entry": { "$ref": "./entry.json" },
-"Error": { "$ref": "./error.json" },
-"Void": { "$ref": "./void.json" }
+{ 
+    "Entry": { "$ref": "/home/rebus/swagger/spec/definitions/entry.json" },
+    "Error": { "$ref": "/home/rebus/swagger/spec/definitions/error.json" },
+    "Void": { "$ref": "/home/rebus/swagger/spec/definitions/void.json" }
+}
