@@ -1,0 +1,14 @@
+    "required": ["message", "path"],
+    "properties": {
+        "errors": {
+            "type": "array",
+            "items": {
+                "message": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "string"
+                }
+            }
+        }
+    }

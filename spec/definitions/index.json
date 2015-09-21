@@ -1,0 +1,3 @@
+"Entry": { "$ref": "./entry.json" },
+"Error": { "$ref": "./error.json" },
+"Void": { "$ref": "./void.json" }
