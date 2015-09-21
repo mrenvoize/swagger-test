@@ -1,4 +1,6 @@
-    "required": ["body", "title"],
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "entry.json",
     "properties": {
         "body": {
             "type": "string",
@@ -8,4 +10,6 @@
             "type": "string",
             "required": true
         }
-    }
+    },
+    "required": ["body", "title"]
+}
