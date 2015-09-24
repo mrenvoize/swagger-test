@@ -111,7 +111,7 @@
                     "default": {
                         "description": "Error.",
                         "schema": {
-                            "$ref": "#/definitions/Error"
+                            "$ref": "#/definitions/Recurse"
                         }
                     }
                 }

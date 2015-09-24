@@ -1,0 +1,21 @@
+{
+   "$schema": "http://json-schema.org/draft-04/schema#",
+   "id": "recurse.json",
+   "required": ["message", "path"],
+   "properties": {
+        "errors": {
+            "type": "array",
+            "items": {
+                "message": {
+                    "type": "string"
+                },
+                "path": {
+                    "type": "string"
+                },
+                "sub-error": {
+                    "$ref": "./recurse.json"
+                }
+            }
+        }
+   }
+}

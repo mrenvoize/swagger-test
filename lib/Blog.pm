@@ -49,7 +49,7 @@ sub startup {
   $r->delete('/posts/:id')->to('posts#remove')->name('remove_post');
 
   require Swagger2::Editor;
-  my $editor = Swagger2::Editor->new(specification_file => $self->home->rel_file('api.json'));
+  my $editor = Swagger2::Editor->new(specification_file => $self->home->rel_file('spec/api.json'));
   $r->route('/editor')->detour(app => $editor);
 }
 
